@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Finger+Paint&display=swap');
+body {
+    font-family: 'poppions', sans-serif;
+    background-color: rgb(177, 209, 89);
+}
+
+h1 {
+    color: rgb(177, 87, 87);
+}
+
+#gameboard {
+    margin: 5vh auto;
+    height: 60vh;
+    width: 60vw;
+}
+
+.gametile {
+    height: 15vh;
+    width: 15vw;
+    line-height: 15vh;
+    background-color: #38aa38;
+    color: rgb(74, 21, 95);
+    text-align: center;
+    font-size: 0em;
+    border: 2px solid #8b3970
+}
+
+#timer div,
+#score div,
+#clicks div {
+    margin: 10px auto 25px auto;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 3px solid rgb(45, 136, 121);
+    background-color: #d84242;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.label {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(158, 134, 27);
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 10%;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.displayTile {
+    font-size: 3em;
+}
+
+.hideTile {
+    font-size: 0em;
+    background-color: #44445a;
+}
+
+.correctAnswer {
+    background-color: green;
+}
+
+.falseAnswer {
+    background-color: red;
+}
